@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psd</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="quiries.css">
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="section">
+        <div class="main">
+            <div class="nav">
+                <ul class="bar">
+                    <li><i class="fa-solid fa-image icon"></i><a href="#">Gallery</a></li>
+                    <li><i class="fa-solid fa-circle-play icon  "></i><a href="#">Video</a></li>
+                    <li><i class="fa-solid fa-star icon"></i><a href="#">About Us</a></li>
+                    <li><i class="fa-solid fa-envelope icon"></i><a href="#">Contact</a></li>
+                    <li class="phone"><i class="fa-solid fa-phone icon color"></i><a href="#" class="color-1">417-394-1074</a></li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header>
+        <!-- <div class="navbar">
+            <div class="logo">
+                <img src="./img/logo.png" class="logo">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="  Search by Keywords,Part or Part#" class="searchbox">
+                <button class="btn-text"><img src="./img/Shape 133 copy.png" ></button>
+            </div>
+            <div class="menu ">
+                <a href="#" onclick="showmenu()"><i class="fa-solid fa-bars"></i></a>
+            </div>
+
+            <div class="nav-icons">
+
+                <a href="#"><img src="./img/Shape 152.png">&nbsp;&nbsp;Locate a Dealer</a>
+                <a href="#"><img src="./img/Shape 151.png"></a>
+                <a href="#"><img src="./img/Shape 139.png">&nbsp;&nbsp;Sign in</a>
+                <a href="#"><i class="fa-solid fa-check"></i></a>
+                <a href="#"><img src="./img/Shape 137.png"></a>
+            </div>
+        </div> -->
+
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="Logo" class="logo-brand">
+            </a>
+
+            <!-- Mobile Toggle Button
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> -->
+
+
+
+            <!-- Collapsible Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <div class="d-lg-flex justify-content-between w-100 align-items-center">
+
+                    <!-- Search -->
+                    <form class="d-flex my-3 my-lg-0 mx-lg-4 flex-grow-1" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search by Keywords, Part or Part#" aria-label="Search">
+                        <!-- <button class="btn btn-outline-secondary" type="submit">
+          <img src="./img/Shape 133 copy.png" class="btn-text alt="Search" height="20">
+        </button> -->
+                        <div class="search-container">
+                            <button class="btn search-btn" type="submit">
+              <img src="./img/Shape 133 copy.png" alt="search" height="20">
+            </button>
+                        </div>
+
+                    </form>
+                    <div class="menu-mob ">
+                        <a href="#" onclick="showmenu()"><i class="fa-solid fa-bars"></i></a>
+                    </div>
+
+                    <!-- Nav Icons -->
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item me-3">
+                            <a class="nav-link d-flex align-items-center" href="#">
+                                <img src="./img/Shape 152.png" alt="Locate a Dealer" height="20" class="me-2"> Locate a Dealer
+                            </a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">
+                                <img src="./img/Shape 151.png" alt="Icon 1" height="20">
+                            </a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link d-flex align-items-center" href="#">
+                                <img src="./img/Shape 139.png" alt="Sign in" height="20" class="me-2"> Sign In
+                            </a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-check"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="./img/Shape 137.png" alt="Icon 2" height="20">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="navbar-center">
+            <ul class="menu">
+                <li><a href="#">CYLINDER HEADS</a></li>
+                <li><a href="#">BLOCKS</a></li>
+                <li><a href="#">INTAKE MANIFOLFDS</a></li>
+                <li><a href="#">COMBOS</a></li>
+                <li><a href="#">VALVETRAIN</a></li>
+                <li><a href="#">CRANKSHAFTS</a></li>
+                <li><a href="#">GASKETS</a></li>
+                <li><a href="#">APAREL & GEAR</a></li>
+
+
+
+            </ul>
+        </div>
+        <div class="back-img">
+            <div class="background">
+                <div class="machine">
+                    <img src="./img/Layer 28.png" </div>
+
+                </div>
+                <div class="para">
+                    <p>Better Flow. Bigger Gains. <span class="big-text">It’s Brodix!</span>
+                    </p>
+                </div>
+                <div class="quotes">
+                    <h1>HEADS - BLOCKS - MANIFOLDS</h1>
+                    <h2> H2 TAG TO BE DETERMINED</h2>
+
+
+                    <div class="view">
+                        <h3>VIEW PRODUCTS</h3>
+                    </div>
+                </div>
+
+            </div>
+
+    </header>
+
+
+    <section class="year">
+        <div class="celebrate"><br><br>
+            <h1 class="celebrate-line">CELEBRATING</h1>
+            <div>
+                <img src="./img/6year.png" class="logo-year">
+            </div>
+
+            <div class="info">
+                <div class="details">
+                    <h1 class="line">FIND YOUR PRODUCT ></h1>
+                    <span class="line-1">Search Parts for your vehicle application</span>
+                </div>
+
+                <div class="details">
+                    <h1 class="line">FIND A DEALER ></h1>
+                    <span class="line-1 details-1">Locate a trusted Brodix Dealer near you</span>
+                </div>
+            </div>
+            <div class="shadow"></div>
+            <div class="shadow-1"></div>
+            <div class="shadow-2"></div>
+            <div class="shadow-3"></div>
+            <div class="shadow-4"></div>
+
+        </div>
+        <div class="machine-part">
+
+            <img src="./img/Layer 30.png">
+        </div>
+
+
+        </div>
+    </section>
+    <section>
+        <div class="categories-block">
+            <div class="categories-line"><br><br>
+                <h1 class="categories">CATEGORIES</h1>
+            </div>
+
+            <div class="flex">
+
+                <div class="card-row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="row-info">
+                            <div class="top"><img src="./img/Rectangle 40 copy 3.png"></div>
+                            <img src="./img/Layer 32 copy 2.png" class="layer-32">
+                            <div class="card-content">
+                                <span class="card-line">Category</span>
+                                <h3 class="card-line2">NAME HERE</h3>
+                                <a href="#" class="more">View More ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="row-info">
+                            <div class="top"><img src="./img/Rectangle 40 copy 3.png"></div>
+                            <img src="./img/Layer 32 copy 2.png" class="layer-32">
+                            <div class="card-content">
+                                <span class="card-line">Category</span>
+                                <h3 class="card-line2">NAME HERE</h3>
+                                <a href="#" class="more">View More ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="row-info">
+                            <div class="top"><img src="./img/Rectangle 40 copy 3.png"></div>
+                            <img src="./img/Layer 32 copy 2.png" class="layer-32">
+                            <div class="card-content">
+                                <span class="card-line">Category</span>
+                                <h3 class="card-line2">NAME HERE</h3>
+                                <a href="#" class="more">View More ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="row-info">
+                            <div class="top"><img src="./img/Rectangle 40 copy 3.png"></div>
+                            <img src="./img/Layer 32 copy 2.png" class="layer-32">
+                            <div class="card-content">
+                                <span class="card-line">Category</span>
+                                <h3 class="card-line2">NAME HERE</h3>
+                                <a href="#" class="more">View More ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+
+                <div class="card-row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="row-info">
+                            <div class="top"><img src="./img/Rectangle 40 copy 3.png"></div>
+                            <img src="./img/Layer 32 copy 2.png" class="layer-32">
+                            <div class="card-content">
+                                <span class="card-line">Category</span>
+                                <h3 class="card-line2">NAME HERE</h3>
+                                <a href="#" class="more">View More ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="row-info">
+                            <div class="top"><img src="./img/Rectangle 40 copy 3.png"></div>
+                            <img src="./img/Layer 32 copy 2.png" class="layer-32">
+                            <div class="card-content">
+                                <span class="card-line">Category</span>
+                                <h3 class="card-line2">NAME HERE</h3>
+                                <a href="#" class="more">View More ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="row-info">
+                            <div class="top"><img src="./img/Rectangle 40 copy 3.png"></div>
+                            <img src="./img/Layer 32 copy 2.png" class="layer-32">
+                            <div class="card-content">
+                                <span class="card-line">Category</span>
+                                <h3 class="card-line2">NAME HERE</h3>
+                                <a href="#" class="more">View More ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="row-info">
+                            <div class="top"><img src="./img/Rectangle 40 copy 3.png"></div>
+                            <img src="./img/Layer 32 copy 2.png" class="layer-32">
+                            <div class="card-content">
+                                <span class="card-line">Category</span>
+                                <h3 class="card-line2">NAME HERE</h3>
+                                <a href="#" class="more">View More ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="product-info">
+                <div class="product-line"><br><br><br><br>
+                    <span class="feature">featured</span>
+                    <h1 class="product">PRODUCTS</h1>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3 col-md-2 product-card">
+                        <div class="text-center">
+                            <div class="shipping">Free Shipping</div>
+                            <img src="./img/Layer 34.png" class="cap">
+                            <p class="product-name">Product Name Here</p>
+                            <p class="part-no">Part# SBFKF-1081</p>
+                            <h4 class="price">$175.00</h4>
+                            <p class="stock">In Stock</p>
+                            <div class="color-box">
+                                <img src="./img/colorbox.webp" class="box">
+                                <img src="./img/colorbox.webp" class="box">
+                                <img src="./img/colorbox.webp" class="box">&nbsp;
+                                <span class="plus">+</span>
+
+                            </div>
+                            <p class="bottom">
+                                <a href="#" class="view-link"> <span class=" plus-1 ">+</span>&nbsp; View Details</a>
+                            </p>
+                            <button class="btn-1 "><span class=" plus-green">+</span>&nbsp; Add to Card</button>
+                        </div>
+                        <div class="card-foot ">Extended Black Friday - 15% OFF
+
+                        </div>
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 product-card ">
+                        <div class="text-center ">
+                            <div class="shipping ">Free Shipping</div>
+                            <img src="./img/Layer 34.png " class="cap ">
+                            <p class="product-name ">Product Name Here</p>
+                            <p class="part-no ">Part# SBFKF-1081</p>
+                            <h4 class="price ">$175.00</h4>
+                            <p class="stock ">In Stock</p>
+                            <div class="color-box ">
+                                <img src="./img/colorbox.webp " class="box ">
+                                <img src="./img/colorbox.webp " class="box ">
+                                <img src="./img/colorbox.webp " class="box ">&nbsp;
+                                <span class="plus ">+</span>
+
+                            </div>
+                            <p class="bottom"><a href="# " class="view-link "><span class="plus-1 ">+</span>&nbsp; View Details</a></p>
+                            <button class="btn-1"><span class=" plus-green">+</span>&nbsp; Add to Card</button>
+                        </div>
+                        <div class="card-foot ">Extended Black Friday - 15% OFF
+
+                        </div>
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 product-card ">
+                        <div class="text-center ">
+                            <div class="shipping ">Free Shipping</div>
+                            <img src="./img/Layer 34.png " class="cap ">
+                            <p class="product-name ">Product Name Here</p>
+                            <p class="part-no ">Part# SBFKF-1081</p>
+                            <h4 class="price ">$175.00</h4>
+                            <p class="stock ">In Stock</p>
+                            <div class="color-box ">
+                                <img src="./img/colorbox.webp " class="box ">
+                                <img src="./img/colorbox.webp " class="box ">
+                                <img src="./img/colorbox.webp " class="box ">&nbsp;
+                                <span class="plus ">+</span>
+
+                            </div>
+                            <p class="bottom"><a href="# " class="view-link "><span class="plus-1 ">+</span>&nbsp; View Details</a></p>
+                            <button class="btn-1"><span class=" plus-green">+</span>&nbsp; Add to Card</button>
+                        </div>
+                        <div class="card-foot ">Extended Black Friday - 15% OFF
+
+                        </div>
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 product-card span">
+                        <div class="text-center ">
+                            <div class="shipping ">Free Shipping</div>
+                            <img src="./img/Layer 34.png " class="cap ">
+                            <p class="product-name ">Product Name Here</p>
+                            <p class="part-no ">Part# SBFKF-1081</p>
+                            <h4 class="price ">$175.00</h4>
+                            <p class="stock ">In Stock</p>
+                            <div class="color-box ">
+                                <img src="./img/colorbox.webp " class="box ">
+                                <img src="./img/colorbox.webp " class="box ">
+                                <img src="./img/colorbox.webp " class="box ">&nbsp;
+                                <span class="plus ">+</span>
+
+                            </div>
+                            <p class="bottom"><a href="# " class="view-link "><span class="plus-1 ">+</span>&nbsp; View Details</a></p>
+                            <button class="btn-1"><span class=" plus-green">+</span>&nbsp; Add to Card</button>
+                        </div>
+                        <div class="card-foot ">Extended Black Friday - 15% OFF
+
+                        </div>
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 product-card span">
+                        <div class="text-center ">
+                            <div class="shipping ">Free Shipping</div>
+                            <img src="./img/Layer 34.png " class="cap ">
+                            <p class="product-name ">Product Name Here</p>
+                            <p class="part-no ">Part# SBFKF-1081</p>
+                            <h4 class="price ">$175.00</h4>
+                            <p class="stock ">In Stock</p>
+                            <div class="color-box ">
+                                <img src="./img/colorbox.webp " class="box ">
+                                <img src="./img/colorbox.webp " class="box ">
+                                <img src="./img/colorbox.webp " class="box ">&nbsp;
+                                <span class="plus ">+</span>
+
+                            </div>
+                            <p class="bottom">
+                                <a href="# " class="view-link "> <span class="plus-1 ">+</span>&nbsp; View Details</a>
+                            </p>
+                            <button class="btn-1"><span class=" plus-green">+</span>&nbsp; Add to Card</button>
+                        </div>
+                        <div class="card-foot ">Extended Black Friday - 15% OFF
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+
+
+    <section class="mid-section ">
+        <div class="background-img ">
+            <div class="black "></div>
+            <div class="image-1 ">
+                <div class="brodix-part ">
+                    <img src="./img/machine-part.png " class="brodix-machine-part ">
+                    <div class="machine-info ">
+                        <h1 class="gallery ">Gallery</h1>
+                        <p class="machine-detail ">View our product <span class="block ">offerings installed on </span> some incredible <span class="block ">looking rides.</span></p>
+                        <h1 class="go ">GO ></h1>
+                    </div>
+                </div>
+                <div class="car-black ">
+                    <img src="./img/black car.png " class="black-img ">
+                    <div class="machine-info ">
+                        <h1 class="gallery ">Videos</h1>
+                        <p class="machine-detail ">Watch our product <span class="block ">lines in action.</span></p>
+                        <h1 class="go ">GO ></h1>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+    <section class="blog">
+        <div class="container-left">
+            <div class="section-blog"><br><br><br>
+                <div class="blog-section">
+                    <span class="word ">the</span>
+                    <div class="text-captical "><b>BLOG<br> SPOT</b>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="left-car ">
+                        <div class="car-pic ">
+                            <img src="./img/Layer 8.png " class="pic ">
+
+                            <div class="col-sm-9">
+                                <div class="blog-card ">Blog Entry Header Goes Here</div>
+                                <div class="date ">
+                                    <img src="./img/Shape 145 copy 2.png ">
+                                    <span class="date-info ">Dec 11, 2024</span>
+
+                                </div>
+                                <div class="car-details ">
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <span class="block "> incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</span>
+
+                                    </p>
+                                    <span class="read "> Read More ></span>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-contain ">
+            <div class="right-blog ">
+                <div class="img-section ">
+                    <div class=" ">
+                        <img src="./img/Layer 11.png " class="img-car ">
+                    </div>
+                    <div class="col-sm-5 col-md-6 blog-info ">
+                        <div class="blog-line ">Blog Entry Header Goes Here</div>
+                        <div class="date ">
+                            <img src="./img/Shape 145 copy 2.png ">
+                            <span class="date-info ">Nov 1, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-blog ">
+                    <div class="img-section ">
+                        <div class=" ">
+                            <img src="./img/Layer 10.png " class="img-car ">
+                        </div>
+                        <div class="col-sm-5 col-md-6 blog-info">
+                            <div class="blog-line ">Blog Entry Header Goes Here</div>
+                            <div class="date ">
+                                <img src="./img/Shape 145 copy 2.png ">
+                                <span class="date-info ">Nov 1, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-blog ">
+                        <div class="img-section ">
+                            <div class=" ">
+                                <img src="./img/Layer 9.png " class="img-car ">
+                            </div>
+                            <div class="col-sm-5 col-md-6 blog-info">
+                                <div class="blog-line ">Blog Entry Header Goes Here</div>
+                                <div class="date ">
+                                    <img src="./img/Shape 145 copy 2.png ">
+                                    <span class="date-info ">Nov 1, 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="join-sec ">
+        <div class="join ">
+
+
+            <div class="wrap ">
+
+                <div class="thumb ">
+                    <img src="./img/Shape 147.png " </div>
+                </div>
+                <div class="wrap-info ">
+                    <span class="wrap-line ">Satisfied or Refund</span>
+                    <p class="wrap-line-2 ">Lorem ipsum dolor sit amet, <span class="block ">consectetur adipiscing elit, eiusmod</span> </p>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="wrap ">
+                <div class="thumb ">
+                    <img src="./img/Shape 148.png " </div>
+                </div>
+                <div class="wrap-info ">
+                    <span class="wrap-line ">Top-Notch Support</span>
+                    <p class="wrap-line-2 ">Lorem ipsum dolor sit amet, <span class="block ">consectetur adipiscing elit, eiusmod</span> </p>
+
+                </div>
+            </div>
+            <div class="wrap ">
+                <div class="thumb ">
+                    <img src="./img/Shape 149.png " </div>
+                </div>
+                <div class="wrap-info ">
+                    <span class="wrap-line ">Secure Payment</span>
+                    <p class="wrap-line-2 ">Lorem ipsum dolor sit amet, <span class="block ">consectetur adipiscing elit, eiusmod</span> </p>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="email-section ">
+            <div class="email ">
+                <span class="text-uppercase "><span><b>JOIN</b></span> <span class="block "><b>OUR</b></span> <span class="list "><b>EMAIL LIST</b></span></b>
+                </span>
+            </div>
+
+
+            <div class="email-info ">
+                <p>You will be first to know about our newes <span class="block ">products, discounts and special events.</span></p>
+            </div>
+
+
+            <div class="mail-box ">
+                <input type="text " placeholder="Enter Email " class="email-box ">
+                <button class="subscribe ">SUBSCRIBE  ></button>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <footer class="category-footer "><br><br><br><br>
+        <div class="footer-section ">
+            <div class="sub-section ">
+                <div class="sub-list ">
+                    <span class="category-head ">Category</span>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+
+
+
+
+                </div>
+
+            </div>
+            <div class="sub-section ">
+                <div class="sub-list ">
+                    <span class="category-head ">Category</span>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+
+
+
+                </div>
+
+            </div>
+            <div class="sub-section  ">
+                <div class="sub-list ">
+                    <span class="category-head ">Category</span>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+                    <li class="head-list ">Sub Category</li>
+
+
+
+                </div>
+
+            </div>
+            <div class="padding-line"></div>
+            <div class="sub-section">
+                <div class="sub-list ">
+                    <span class="category-head ">Contact</span>
+                    <div class="address ">
+                        <li class="address-name ">BRODIX</li>
+                        <li>1234 E. 123 Street</li>
+                        <li>sometown st 1234</li>
+
+                    </div>
+                    <div class="phone-no ">
+                        <li class="ph ">PH: 123-456-7890</li>
+                        <li>FAX: 123-456-7891</li>
+
+
+                    </div>
+
+                    <div class="general ">
+                        <li class="gen ">GENERAL INFO</li>
+                        <li>info@tuninginstyle.com</li>
+                    </div>
+
+
+                    <div class="social ">
+                        <ul class="social-icons ">
+
+                            <li>
+                                <i class="fa-brands fa-facebook-f "></i>
+                            </li>
+
+
+                            <li>
+                                <i class="fa-brands fa-x-twitter "></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-square-instagram "></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-youtube "></i>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="img-footer ">
+            <div class="footer-img ">
+                <img src="./img/logo.png " class="logo-foot ">
+
+            </div>
+
+
+            <div class="copyright ">
+                <span class="copy-1">COPYRIGHT © 2025 BRODIX. ALL RIGHTS RESERVED.  DEVELOPED ON THE NEBHUB PLATFORM BY ADMARK ONLINE.</span> </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
